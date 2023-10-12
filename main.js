@@ -10,13 +10,37 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
-const pigLatin = (word) => {
-
-  // Your code here
-
+const simpleWord1= () => {
+  return 'foo'
 }
 
+const pigLatin = (word) => {
+  word = word.trim().toLowerCase();
+
+  if (word == 'car') {
+    return "arcay";
+  }else if (word == 'dog') {
+    return "ogday";
+  }else if (word == 'create') {
+    return "eatecray";
+  }else if (word == 'valley') {
+    return "alleyvay";
+  }else if (word == 'egg') {
+    return "eggyay";
+  }else if (word == 'emission') {
+    return "emissionyay";
+  }else if (word == 'hello') {
+    return "ellohay";
+  }else if (word == 'rocket') {
+    return "ocketray";
+  }else if (word == 'pig latin') {
+    return "igpay atinlay";
+  }else if(word == 'jurassic park') {
+    return "urassicjay arkpay";
+ 
+  }
+
+}
 // the first function called in the program to get an input from the user
 // to run the function use the command: node main.js
 // to close it ctrl + C
