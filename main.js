@@ -40,6 +40,8 @@ const pigLatin = (word) => {
  
   }
 
+
+
 }
 // the first function called in the program to get an input from the user
 // to run the function use the command: node main.js
